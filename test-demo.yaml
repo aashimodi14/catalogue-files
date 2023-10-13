@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: eks-test
+  annotations:
+    github.com/project-slug: aashimodi14/eks-test
+    backstage.io/kubernetes-namespace: dice-space
+    backstage.io/kubernetes-id: test-demo
+spec:
+  type: service
+  lifecycle: production
+  owner: users:guests
